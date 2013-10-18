@@ -1,0 +1,59 @@
+html, body, #cmr_map 
+{ 
+	height: 100%; 
+	width: 100%; 
+	margin: 0;
+	padding: 0;
+
+	font-family:arial, helvetica;
+	font-size:10pt;
+}
+
+#gmap_canvas
+{
+
+    width: 100%;
+    height: 100%; 
+
+    float: left; 
+}
+
+#sidebar_bg
+{
+	background: #000;
+	opacity: 0.5;		
+}
+
+#sidebar_bg, #sidebar
+{
+
+    position: absolute;
+	right:10px;
+	top: 50px;
+
+    width: 150px;
+    height: 220px;
+}
+
+.sidebar_item
+{
+	color: #fff;	
+	opacity: 1.0;
+	font-family:arial, helvetica;
+	font-weight: bold;
+	font-size:10pt;	
+	margin: 10px;
+	
+}
+
+#console
+{
+	float: left;
+	width: 200px;
+	height: 600px;
+	overflow: auto;
+	font-family: courier;
+	font-size: 8pt;
+	color: #0F0;
+	background: #000;
+}
